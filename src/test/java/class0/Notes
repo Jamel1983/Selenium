@@ -1,0 +1,19 @@
+What is Selenium?
+Selenium is a tool to help us automate web applications
+
+get() vs navigate():
+get() -> you can go back or forward
+navigate() -> you cab go back and forward and also refresh
+
+get() -> waits for the whole page to load
+navigate() -> doesn't wait for the whole page to load
+
+Locators
+    1.Name
+    2.id
+    3.class
+    4.linkText => must be an a tag (anchor) and must have text
+    5.partialLinkText => must be an a tag (anchor) and must have text
+    6.tagname
+    7.xpath
+    8.css
