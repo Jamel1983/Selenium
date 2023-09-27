@@ -17,7 +17,8 @@ public class HW {
         userName.sendKeys("abc");
 
         userName.sendKeys(Keys.CONTROL + "a");
-        userName.sendKeys(Keys.BACK_SPACE);
+        userName.sendKeys(Keys.DELETE);
+        //userName.sendKeys(Keys.BACK_SPACE);
 
         Thread.sleep(3000);
         userName.sendKeys("Admin");

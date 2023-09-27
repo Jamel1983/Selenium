@@ -1,0 +1,24 @@
+Xpath:
+    1.  Absolute Xpath
+            Is a direct way to find an element in HTML or XML code.
+            It uses the complete path from the root element to the desired element.
+
+            /html/body/div/div/div/div/div/div/div[2]/div/div/form/div/div/input
+
+
+    2.  Relative Xpath
+            Relative XPath begins with a double forward slash //
+            and can search for an element anywhere on the webpage2.
+            Relative XPaths are generally preferred as they are not complete paths from the root node1.
+
+            attribute => //tagname[@attribute='value']
+            text => //tagname[text()='value']
+            contains =>  attribute -> //tagname[contains(@name,'value')]
+                         text -> //tagname[contains(text(),'value')]
+
+            startswith =>   attribute -> //tagname[starts-with(@attribute, 'value')]
+                            text -> //tagname[starts-with(text(), 'value'0]
+
+            indexing => (//tagname[@attribute='value'])[1]
+
+            and operator => //tagname[@attribute='value' and @attribute='value']
